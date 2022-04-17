@@ -1,0 +1,61 @@
+{% extends 'html/main.html'%}
+
+{%load static %}
+{% block content%}
+
+
+<link href="{% static 'css/about.css'%}" rel="stylesheet">
+
+  <div class="About">
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>This community is made solely for the Django lovers.Django is an open-source Python web framework that has been gaining a lot of popularity lately. It has been used extensively by companies such as Mozilla, Spotify and NASA.
+          So the main purpose of making this community if you happen to come across any issues, someone has probably tackled it before, and will be willing to help you out.  </p>
+        
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="{% static 'images/person.jpg' %}" alt="" style="width:50%">
+            <div class="container">
+              <h2>XYZ</h2>
+              <p class="title">CEO & Founder</p>
+              <p></p>
+              <p>xyz@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="{% static 'images/person.jpg' %}" alt="" style="width:50%">
+            <div class="container">
+              <h2>XYZ</h2>
+              <p class="title">Art Director</p>
+              <p></p>
+              <p>xvy@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="{% static 'images/person.jpg' %}" alt="" style="width:50%">
+            <div class="container">
+              <h2>XYZ</h2>
+              <p class="title">Designer</p>
+              <p></p>
+              <p>xyz@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>,
+    
+{% endblock content%}
