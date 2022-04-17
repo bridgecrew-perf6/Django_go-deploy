@@ -9,7 +9,7 @@ from .forms import  CreateUserForm
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .decorators import unauthenticated_user, allowed_users, admin_only
+from .decorators import unauthenticated_user, admin_only
 
 
 @unauthenticated_user
